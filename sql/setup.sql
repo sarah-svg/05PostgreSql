@@ -29,7 +29,7 @@ CREATE TABLE motorcycles (
   model TEXT NOT NULL,
   year INT
 );
-CREATE TABLE carss (
+CREATE TABLE cars (
   id BIGINT GENERATED ALWAYS AS IDENTITY,
   make TEXT NOT NULL,
   model TEXT NOT NULL,
