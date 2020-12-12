@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS gocarts;
+
+CREATE TABLE gocarts (
+  id BIGINT GENERATED ALWAYS AS IDENTITY,
+  make TEXT NOT NULL,
+  model TEXT NOT NULL,
+  year INT
+);
